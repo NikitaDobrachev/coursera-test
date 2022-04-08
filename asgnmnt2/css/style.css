@@ -1,1 +1,151 @@
+* {
+	font-family: Helvetica, Arial, sans-serif;
+	box-sizing: border-box;
+}
+body {
+	margin: 0px;
+}
+h1 {
+	pa
+	margin-bottom: 15px;
+	color: brown;
+	font-size: 1.75em;
+	text-align: center;
+}
+p {
+	margin: 0px;
+}
+div {
+  height: 500px;
+  border: 2px solid black;
+  padding: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+@media (min-width: 992px) {
+	.lg-1, .lg-2, .lg-3, .lg-4, .lg-5, .lg-6, .lg-7, .lg-8, .lg-9, .lg-10, .lg-11, .lg-12 {
+		float: left;
+	}
+		  .lg-1 {
+    width: 8.33%;
+  }
+  .lg-2 {
+    width: 16.66%;
+  }
+  .lg-3 {
+    width: 25%;
+  }
+  .lg-4 {
+    width: 30%;
+  }
+  .lg-5 {
+    width: 41.66%;
+  }
+  .lg-6 {
+    width: 45%;
+  }
+  .lg-7 {
+    width: 58.33%;
+  }
+  .lg-8 {
+    width: 66.66%;
+  }
+  .lg-9 {
+    width: 74.99%;
+  }
+  .lg-10 {
+    width: 83.33%;
+  }
+  .lg-11 {
+    width: 91.66%;
+  }
+  .lg-12 {
+    width: 100%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+.mg-1, .mg-2, .mg-3, .mg-4, .mg-5, .mg-6, .mg-7, .mg-8, .mg-9, .mg-10, .mg-11, .g-12 {
+		float: left;
+	}
+		  .mg-1 {
+    width: 8.33%;
+  }
+  .mg-2 {
+    width: 16.66%;
+  }
+  .mg-3 {
+    width: 25%;
+  }
+  .mg-4 {
+    width: 30%;
+  }
+  .mg-5 {
+    width: 41.66%;
+  }
+  .mg-6 {
+    width: 47.2%;
+  }
+  .mg-7 {
+    width: 58.33%;
+  }
+  .mg-8 {
+    width: 66.66%;
+  }
+  .mg-9 {
+    width: 74.99%;
+  }
+  .mg-10 {
+    width: 83.33%;
+  }
+  .mg-11 {
+    width: 91.66%;
+  }
+  .mg-12 {
+    width: auto;
+    clear: both;
+	}
+}
 
+@media (max-width: 767px) {
+.sg-1, .sg-2, .sg-3, .sg-4, .sg-5, .sg-6, .sg-7, .sg-8, .sg-9, .sg-10, .sg-11, .sg-12 {
+		float: left;}
+	.sg-1 {
+    width: 8.33%;
+  }
+  	.sg-2 {
+    width: 16.66%;
+  }
+  	.sg-3 {
+    width: 25%;
+  }
+  	.sg-4 {
+    width: 33.33%;
+  }
+  .sg-5 {
+    width: 41.66%;
+  }
+  .sg-6 {
+    width: 50%;
+  }
+  .sg-7 {
+    width: 58.33%;
+  }
+  .sg-8 {
+    width: 66.66%;
+  }
+  .sg-9 {
+    width: 74.99%;
+  }
+  .sg-10 {
+    width: 83.33%;
+  }
+  .sg-11 {
+    width: 91.66%;
+  }
+  .sg-12 {
+    width: auto;
+    height: auto;
+	}
+}
