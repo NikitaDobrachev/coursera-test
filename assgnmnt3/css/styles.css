@@ -1,0 +1,21 @@
+body {
+	font-family: helvetica, arial;
+}
+
+.nav-item {
+	text-align: center;
+	color: black;
+}
+
+a:hover {
+	color: gray;
+} 
+
+h2 {
+	text-align: center;
+	margin: 20px auto 10px auto;
+}
+
+div .section-assignment {
+	background-color: #f8f9fa
+}
